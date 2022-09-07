@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment_ 1</title>
+    <script>
+        function back(source){
+               // for the ID
+
+           // document.getElementById('box').style.backgroundColor = source.value; 
+
+            
+            // for the CLASS
+            var items = document. getElementsByClassName("container")[0].style.backgroundColor =source.value;// get all the elements in the element
+          // for(var i = 0; i < items. length; i++){ 
+             // items[i]. style. backgroundColor = source.value; 
+        //  }
+
+    }
+    function fontC(source){
+        
+          // for the ID
+       //document.getElementById('box').style.color = source.value
+
+        //for the CLASS
+        var items = document. getElementsByClassName("container")[0].style.color =source.value;/// get all elements.
+       // for(var i = 0; i < items. length; i++){ 
+          // items[i]. style. color = source.value; 
+      // }
+         
+    }
+    </script>
+</head>
+<body>
+    <label> Set Background color
+        <input type="color" onchange="back(this)">
+    </label>
+    <br>
+    <label> Set Font color 
+        <input type="color" onchange="fontC(this)">
+    </label>
+    <div class = "container"id="box" >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus iure dignissimos id dolor esse corrupti, vitae corporis, tenetur sit voluptatibus aliquid adipisci voluptas doloribus placeat ab delectus quae veritatis laudantium?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dolore autem at, repellat libero magnam quod fugiat ipsa, iste, aliquam dicta accusamus minima nam harum eaque ut debitis atque sequi!
+    </div>
+
+
+</body>
+</html>

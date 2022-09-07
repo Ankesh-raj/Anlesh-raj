@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage</title>
+    <script> function storeinfo()
+    {
+        var info= {
+            uname:document.getElementById("uname").value,
+            email:document.getElementById("email").value,
+            phone:document.getElementById("phone").value
+        };
+        localStorage.setItem("user info ",JSON.stringify(info));
+    };
+    function clearinfo()
+    {
+        localStorage.clear();
+    }
+    
+        </script>
+</head>
+<body>
+    <table>
+        <tdbody>
+            <tr>
+                <th>user name</th>
+                    <td><input name="uname" required autocomplete="off" placeholder ="Enter your name" type="text"/></td>
+    
+                    </td>
+                
+            </tr>
+            <tr>
+                <th>user email</th>
+                    <td><input name="email" required placeholder ="Enter your email" type="text"/></td>
+    
+        
+            <tr>
+                <th>user phone</th>
+                    <td><input name="phone"  required  placeholder =" enter your no" type="tel"/></td>
+    
+            
+            </tr>
+            <th>&nbsp;
+                <td> 
+                    <input onclick="storeinfo()" type="submit" value="Store Info">
+                </td>
+            </th>
+            <td><input type="submit"value="Reistration"/></td>
+            
+    
+</body>
+<button onclick="clearinfo()">Clear</button>
+</html>
