@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         canvas{
+            border:2px solid black;
+            margin:20px ,auto;
+            display: block;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <canvas id="can" width="500" height="500"></canvas>
+    <script>
+       // var circleX=-100;
+
+        var ctx=document.getElementById("can").getContext("2d");
+        setInterval(function()
+
+        {
+            ctx.beginPath();
+          ctx.clearRect(0,0,500,500);
+            var red=Math.round(Math.random()*255);
+            var green=Math.round(Math.random()*255);
+            var blue=Math.round(Math.random()*255);
+            var circlex=Math.round(Math.random()*500);
+             var circley=Math.round(Math.random()*500);
+            var  circlez=Math.round(Math.random()*50);
+            // var red=Math.round(Math.random()*255);
+            var alpha=Math.random();
+            // var green=Math.round(Math.random()*255);
+            // var blue=Math.round(Math.random()*255);
+            
+
+            ctx.fillStyle= "rgb("+red+", "+green+" ,"+blue+","+alpha+")";
+            ctx.fillRect(circlex,circley,circlez, circlez)
+            ctx.arc(circlex,circley,circlez,0,(Math.PI/180)*45,true)
+            
+            ctx.fill();
+            ctx.closePath();
+
+         },1000)
+    </script>
+</body>
+</html>
