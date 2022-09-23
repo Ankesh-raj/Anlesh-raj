@@ -1,0 +1,17 @@
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe.config
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.pdb
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.AssemblyReference.cache
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.SuggestedBindingRedirects.cache
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.CoreCompileInputs.cache
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.exe
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.pdb
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagementBusinese.dll
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagementEntity.dll
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagementData.dll
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagementBusinese.pdb
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagementEntity.pdb
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagementData.pdb
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.CopyComplete
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagementPresentation.dll
+D:\Training\Hellow1\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagementPresentation.pdb

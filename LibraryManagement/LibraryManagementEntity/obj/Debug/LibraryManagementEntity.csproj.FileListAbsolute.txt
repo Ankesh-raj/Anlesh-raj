@@ -1,0 +1,6 @@
+D:\Training\Hellow1\LibraryManagement\LibraryManagementEntity\bin\Debug\LibraryManagementEntity.dll
+D:\Training\Hellow1\LibraryManagement\LibraryManagementEntity\bin\Debug\LibraryManagementEntity.pdb
+D:\Training\Hellow1\LibraryManagement\LibraryManagementEntity\obj\Debug\LibraryManagementEntity.csproj.AssemblyReference.cache
+D:\Training\Hellow1\LibraryManagement\LibraryManagementEntity\obj\Debug\LibraryManagementEntity.csproj.CoreCompileInputs.cache
+D:\Training\Hellow1\LibraryManagement\LibraryManagementEntity\obj\Debug\LibraryManagementEntity.dll
+D:\Training\Hellow1\LibraryManagement\LibraryManagementEntity\obj\Debug\LibraryManagementEntity.pdb
